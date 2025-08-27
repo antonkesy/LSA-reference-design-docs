@@ -1,4 +1,4 @@
 nav:
   - index.md
-  - x86_64ECUs
-  - armECUs
+  - x86_64
+  - ARM
