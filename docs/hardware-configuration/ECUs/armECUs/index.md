@@ -1,23 +1,10 @@
 # ARM-based ECUs
 
-The page lists the ARM-based ECUs being tested for LSA, which can meet the computation capacity requirement of LSA but does not overprovision the resource requirements. 
+The page lists the ARM-based ECUs being tested for LSA, which can meet the computation capacity requirement of LSA but does not overprovision the resource requirements.
 
-Another page on [Autoware Document](https://autowarefoundation.github.io/autoware-documentation/main/reference-hw/ad-computers/) lists the ECUs being for other use scenarios. 
+Another page on [Autoware Document](https://autowarefoundation.github.io/autoware-documentation/main/reference-hw/ad-computers/) lists the ECUs being for other use scenarios.
 
-(Candidates of the ECUS to be used by the LSA)
-
-## **nVidia In-Vehicle Computers**
-![ad_comp-adlink.png](images/ad_comp-nvidia.jpg)
-nVidia provides the development kit as a reference design. 
-
-
-| Supported Products List | CPU                     | GPU                        | RAM, Interfaces                                 | Environmental | Autoware Tested (Y/N) |
-| ----------------------- | ----------------------- | -------------------------- | ----------------------------------------------- | ------------- | --------------------- |
-| nVidia Jetson Orin             | 12-core Arm® Cortex®-A78AE v8.2 64-bit CPU 3MB L2 + 6MB L3 | 2048-core NVIDIA Ampere architecture GPU with 64 Tensor Cores | 64 GB RAM, Up to 6 cameras (16 via virtual channels), 4x USB2.0 1x 1GbE, 1x10GbE | None      | Yes                     |
-| DRIVE AGX Orin Developer Kit   | 12 Cortex-A78A CPU | 2048-core NVIDIA Ampere architecture GPU with 64 Tensor Cores | 16x GMSL cameras, 2x 10GbE, 10x 1GbE, 6x 100 MbE, 6 CAN  |  ASIL-D    | (TBA)                     |
-
-Link to company website is [here.](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/)
-
+(Candidates of the ECUs to be used by the LSA in the alphabetical order)
 
 ## **ADLINK In-Vehicle Computers**
 
@@ -35,18 +22,6 @@ ADLINK solutions which is used for autonomous driving and tested by one or more 
 
 Link to company website is [here.](https://www.adlinktech.com/en/Connected-Autonomous-Vehicle-Solutions)
 
-## **NXP In-Vehicle Computers**
-
-![ad_comp-nxp.png](images/ad_comp-nxp.png)
-
-NXP solutions which is used for autonomous driving and tested by one or more community members are listed below:
-
-| Supported Products List | CPU                     | GPU                        | RAM, Interfaces                                 | Environmental | Autoware Tested (Y/N) |
-| ----------------------- | ----------------------- | -------------------------- | ----------------------------------------------- | ------------- | --------------------- |
-| BLUEBOX 3.0             | 16 x Arm® Cortex®-A72 | Dual RTX 8000 or RTX A6000 | 16 GB RAM CAN, FlexRay, USB, Ethernet, DIO, SSD | ASIL-D        | -                     |
-
-Link to company website is [here.](https://www.nxp.com/design/designs/bluebox-3-0-automotive-high-performance-compute-ahpc-development-platform:BlueBox)
-
 ## **Advantech In-Vehicle Computers**
 
 ![Advantech AD Computers](https://github.com/user-attachments/assets/0798fc0d-e799-4c54-8f81-dfe98466e726)
@@ -59,3 +34,26 @@ Advantech's autonomous driving and robotic computers are of compact size, with G
 
 Link to company website is [here.](https://campaign.advantech.online/en/AMR-Robotic-Solutions/)
 
+## **nVidia In-Vehicle Computers**
+
+![ad_comp-adlink.png](images/ad_comp-nvidia.jpg)
+nVidia provides the development kit as a reference design.
+
+| Supported Products List | CPU                     | GPU                        | RAM, Interfaces                                 | Environmental | Autoware Tested (Y/N) |
+| ----------------------- | ----------------------- | -------------------------- | ----------------------------------------------- | ------------- | --------------------- |
+| nVidia Jetson Orin             | 12-core Arm® Cortex®-A78AE v8.2 64-bit CPU 3MB L2 + 6MB L3 | 2048-core NVIDIA Ampere architecture GPU with 64 Tensor Cores | 64 GB RAM, Up to 6 cameras (16 via virtual channels), 4x USB2.0 1x 1GbE, 1x10GbE | None      | Yes                     |
+| DRIVE AGX Orin Developer Kit   | 12 Cortex-A78A CPU | 2048-core NVIDIA Ampere architecture GPU with 64 Tensor Cores | 16x GMSL cameras, 2x 10GbE, 10x 1GbE, 6x 100 MbE, 6 CAN  |  ASIL-D    | (TBA)                     |
+
+Link to company website is [here.](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/)
+
+## **NXP In-Vehicle Computers**
+
+![ad_comp-nxp.png](images/ad_comp-nxp.png)
+
+NXP solutions which is used for autonomous driving and tested by one or more community members are listed below:
+
+| Supported Products List | CPU                     | GPU                        | RAM, Interfaces                                 | Environmental | Autoware Tested (Y/N) |
+| ----------------------- | ----------------------- | -------------------------- | ----------------------------------------------- | ------------- | --------------------- |
+| BLUEBOX 3.0             | 16 x Arm® Cortex®-A72 | Dual RTX 8000 or RTX A6000 | 16 GB RAM CAN, FlexRay, USB, Ethernet, DIO, SSD | ASIL-D        | -                     |
+
+Link to company website is [here.](https://www.nxp.com/design/designs/bluebox-3-0-automotive-high-performance-compute-ahpc-development-platform:BlueBox)

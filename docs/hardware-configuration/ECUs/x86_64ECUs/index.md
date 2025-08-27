@@ -1,10 +1,10 @@
 # X86-based ECUs
 
-The page lists the X86-bsaed ECUs being tested for LSA, which can meet the computation capacity requirement of LSA but does not overprovision the resource requirements. 
+The page lists the X86-bsaed ECUs being tested for LSA, which can meet the computation capacity requirement of LSA but does not overprovision the resource requirements.
 
-Another page on [Autoware Document](https://autowarefoundation.github.io/autoware-documentation/main/reference-hw/ad-computers/) lists the ECUs being for other use scenarios. 
+Another page on [Autoware Document](https://autowarefoundation.github.io/autoware-documentation/main/reference-hw/ad-computers/) lists the ECUs being for other use scenarios.
 
-(Candidates of the ECUS to be used by the LSA)
+(Candidates of the ECUs to be used by the LSA in the alphabetical order)
 
 ## **ADLINK In-Vehicle Computers**
 
@@ -19,9 +19,7 @@ ADLINK solutions which is used for autonomous driving and tested by one or more 
 | ADM-AL30                        | Intel® 13/12th Gen Core™ I processor | Nvidia RTX 4000 SFF Ada  | 128GB RAM, Serial, USB, Automotive Ethernet (Base-T1), 10G Ethernet, CAN 2.0/ CAN-FD, M.2/SATA SSD | 9~36 VDC, E-Mark, 7637-2, IEC 60068-2-64: Operating: 5Grms, random, 5-500Hz, 3 axes (with SSD) | Y                     |
 | AVA-3510                        | Intel® Xeon® E-2278GE                | Dual MXM RTX 5000        | 64GB RAM,CAN, USB, 10G Ethernet, DIO, Hot-Swap SSD, USIM                                           | 9~36 VDC, MIL-STD-810H,ISO 7637-2                                                              | Y                     |
 
-
 Link to company website is [here.](https://www.adlinktech.com/en/Connected-Autonomous-Vehicle-Solutions)
-
 
 ## **Advantech In-Vehicle Computers**
 
@@ -34,21 +32,6 @@ Advantech's autonomous driving and robotic computers are of compact size, with G
 | **AFE-R760** (system, but the board  AFE-R360 is also avaialbe)|Intel® Core™ Ultra 7/5 Processors|(Optional) MXM-type RTX A2000/A4500/5000Ada| <ul><li>4 GMSL2 cameras</li><li>Dual Channel DDR5-5600, up to 96GB</li><li>3 x LAN up to 2.5GbE</li><li>4 x RS-232/422/485</li><li>2 x USB-C & 2 USB-A  (10Gbps)</li><li>2 x CAN-FD</li></ul>|<ul><li>Operating Temperature: -20 ~ 60° C with 0.7m/s air flow</li><li>Vibration During Operation: 3 Grms, IEC 60068-2-64, random, 5 ~ 500 Hz, 1 hr/axis.</li><li>Shock During Operation 30 G, IEC 60068-2-27, half sine, 11 ms duration</li><li>EMC: Heavy industrial certificates, CE/FCC Class B, UKCA, CCC, BSMI</li></ul>|Y|
 
 Link to company website is [here.](https://campaign.advantech.online/en/AMR-Robotic-Solutions/)
-
-
-## **Neousys In-Vehicle Computers**
-
-![ad_comp-neousys.png](images/ad_comp-neousys.png)
-
-Neousys solutions which is used for autonomous driving and tested by one or more community members are listed below:
-
-| Supported Products List | CPU                          | GPU                                | RAM, Interfaces                                                                    | Environmental                                                | Autoware Tested (Y/N) |
-| ----------------------- | ---------------------------- | ---------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------ | --------------------- |
-| 8805-GC                 | AMD® EPYC™ 7003            | NVIDIA® RTX A6000/ A4500          | 512GB CAN, USB, Ethernet, Serial, Easy-Swap SSD                                    | 8-48 Volt, Vibration:MIL-STD810G, Method 514.6, Category 4   | Y                     |
-| 10208-GC                | Intel® 13th/12th-Gen Core™ | Dual 350W NVIDIA® RTX GPU         | 64GB CAN, USB, Ethernet, Serial, M2 NVMe SSD                                       | 8~48 Volt, Vibration: MIL-STD-810H, Method 514.8, Category 4 | Y                     |
-| 9160-GC                 | Intel® 13th/12th-Gen Core™ | NVIDIA® RTX series up to 130W TDP | 64GB CAN, USB, Ethernet, PoE, Serial, two 2.5" SATA HDD/SSD with RAID, M2 NVMe SSD | 8~48, Vibration: Volt,MIL-STD-810G, Method 514.6, Category 4 | -                     |
-
-Link to company website is [here.](https://www.neousys-tech.com/en/product/product-lines/edge-ai-gpu-computing)
 
 ## **Crystal Rugged In-Vehicle Computers**
 
@@ -65,6 +48,20 @@ Crystal Rugged solutions which is used for autonomous driving and tested by one 
 
 Link to company website is [here.](https://www.crystalrugged.com/products/ai-autonomous-vehicle-technology/)
 
+## **Neousys In-Vehicle Computers**
+
+![ad_comp-neousys.png](images/ad_comp-neousys.png)
+
+Neousys solutions which is used for autonomous driving and tested by one or more community members are listed below:
+
+| Supported Products List | CPU                          | GPU                                | RAM, Interfaces                                                                    | Environmental                                                | Autoware Tested (Y/N) |
+| ----------------------- | ---------------------------- | ---------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------ | --------------------- |
+| 8805-GC                 | AMD® EPYC™ 7003            | NVIDIA® RTX A6000/ A4500          | 512GB CAN, USB, Ethernet, Serial, Easy-Swap SSD                                    | 8-48 Volt, Vibration:MIL-STD810G, Method 514.6, Category 4   | Y                     |
+| 10208-GC                | Intel® 13th/12th-Gen Core™ | Dual 350W NVIDIA® RTX GPU         | 64GB CAN, USB, Ethernet, Serial, M2 NVMe SSD                                       | 8~48 Volt, Vibration: MIL-STD-810H, Method 514.8, Category 4 | Y                     |
+| 9160-GC                 | Intel® 13th/12th-Gen Core™ | NVIDIA® RTX series up to 130W TDP | 64GB CAN, USB, Ethernet, PoE, Serial, two 2.5" SATA HDD/SSD with RAID, M2 NVMe SSD | 8~48, Vibration: Volt,MIL-STD-810G, Method 514.6, Category 4 | -                     |
+
+Link to company website is [here.](https://www.neousys-tech.com/en/product/product-lines/edge-ai-gpu-computing)
+
 ## **Vecow In-Vehicle Computers**
 
 ![ad_comp-vecow.png](images/ad_comp-vecow.png)
@@ -77,5 +74,3 @@ Vecow solutions which is used for autonomous driving and tested by one or more c
 | IVX-1000                | Intel® 13th/12th-Gen Core™ | NVIDIA Quadro® MXM Graphics           | 64GB RAM, Ethernet, PoE, Serial, M.2/SATA/mSATA SSD, SIM Card     | 16-160 Volt, Vibration: IEC 61373 : 2010, 40°C to 85°C       | -                     |
 
 Link to company website is [here.](https://www.vecow.com/dispPageBox/vecow/VecowHp.aspx?ddsPageID=VECOW_EN)
-
-
