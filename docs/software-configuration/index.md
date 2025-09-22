@@ -19,20 +19,24 @@ This guide covers deploying Autoware on Low Speed Autonomy (LSA) vehicles.
 ## Platform-Specific Deployment
 
 ### x86\_64-based ECUs
-- [View tested ECUs](../hardware-configuration/ECUs/x86_64ECUs/index.md).
-- Deploy native Autoware on Intel/AMD platforms. 
-- Deploy containerized Autoware on Intel/AMD platforms. 
 
-### ARM-based ECUs  
+- [View tested ECUs](../hardware-configuration/ECUs/x86_64ECUs/index.md).
+- Deploy native Autoware on Intel/AMD platforms.
+- Deploy containerized Autoware on Intel/AMD platforms.
+
+### ARM-based ECUs
+
 - [View tested ECUs](../hardware-configuration/ECUs/armECUs/index.md).
-- Deploy on NVIDIA Jetson and other ARM platforms for low-power applications. 
+- Deploy on NVIDIA Jetson and other ARM platforms for low-power applications.
 
 ## Key Configuration Areas
 
 ### Sensor Configuration
+
 Configure network interfaces, LiDAR sensors, cameras, CAN bus, GNSS/IMU, and time synchronization. [Learn more](sensor-configuration/index.md).
 
-### Middleware Configuration  
+### Middleware Configuration
+
 Optimize ROS 2 middleware for LSA applications. Zenoh is recommended for wireless and cellular networks. [Learn more](middleware-configuration/index.md).
 
 ## Resources
