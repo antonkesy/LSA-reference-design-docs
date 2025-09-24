@@ -8,8 +8,10 @@ Operation Domain Definition (ODD) describes the use scenarios for the vehicles t
 
 The outdoor ODD assumes that the vehicles can localize itself using GPS or HD map. However, the indoor ODD assumes that the vehicles do not have GPS reception and rely on camera and/or lidar for localization.
 
+
 The risk and safety assessment for low-speed autonomy vehicles are conducted on ASIL assessment and SOTIF assessment. Both of them are conducted using HARA process. 
 
-- [Risk Assessment](HARA/index.md)
+- [ASIL Assessment](HARA/asil.md): Assessment for ASIL using HARA process. 
+- [SOTIF Assessment](HARA/sofit.md): Assessment for SOTIF using HARA process.
 
 
