@@ -1,0 +1,60 @@
+IMPORT:
+ - Domain_Concepts_Definition_ISO_34503_LSA.yaml
+
+MODULES:
+  odd_lsv_module:
+    TITLE: ODD for Low Speed Vehicles at University Campus # LSA in university campus
+    DESCRIPTION: This module defines the ODD for Low Speed Vehicles (LSVs) at University Campus as per ISO 34503. # LSA in university campus
+    INCLUDE_AND:
+      module_drivable_area: true
+      module_junctions: true
+
+  module_drivable_area:
+    LABEL:
+      drivable_area
+    INCLUDE_AND:
+      drivable_area_type:
+        - primary_roads
+        - distributor_roads
+        - minor_or_local_roads # LSA in university campus add "_" between or and local
+        - parking_space
+        - docking_area # LSA in university campus for loading/unloading
+      drivable_area_type_classification:
+        - with_active_traffic_management
+        - without_active_traffic_management
+      horizontal_plane:
+        - straight_lines
+        - curves # ToDo: radius
+      transverse_plane:  # LSA in university campus 
+        - # ToDo: 1.15 deg
+      longitudinal_plane:  # LSA in university campus 
+        - up-slope # up to 10deg
+        - down-slope # up to 10deg
+      lane_dimensions:  # LSA in university campus 
+        - any_lane_dimensions # up to 2 lanes
+        - one_way # LSA in university campus 
+      drivable_area_surface:
+        - asphalt
+        - cement_concrete
+        - pavers
+      drivable_area_edge:
+        - line_markers
+        - solid_barriers
+      drivable_area_shoulder:
+        - paved or gravel
+  
+  module_junctions:
+    LABEL:
+      - junctions  # LSA in university campus: add "-"
+    roundabout:
+      - mini
+      - compact
+      - normal
+      - large
+    intersection:
+      - t-junction
+      - y-junction
+      - cross_road
+    intersection_classification:
+      - signalized
+      - unsignalized
