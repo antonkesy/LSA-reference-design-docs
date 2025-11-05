@@ -12,7 +12,7 @@ ODD:
       module_l3_intersection: true
 
 MODULES:
-  module_l3_waypoint_pusing:
+  module_l3_waypoint_pursuing:
     TITLE: ODD of the L3 waypoint pursuing behavior
     INCLUDE_AND:
       horizontal_plane:
@@ -41,7 +41,7 @@ MODULES:
         - ruts
         - swells
     EXCLUDE_OR:
-      bad_weather: false
+      bad_weather: false # maybe remove for now and add later when we can handle different weather conditions.
       bad_visibility: false
     
   module_l3_emergency_braking:
@@ -49,7 +49,6 @@ MODULES:
     INCLUDE_AND:
       horizontal_plane:
         - straight_lines
-        - curves
       superelevation_banking:
         - any_superelevation_banking # newly added to avoid empty categoricals
       longitudinal_plane:
@@ -63,6 +62,8 @@ MODULES:
   module_l3_object_avoidance:
     TITLE: ODD of the L3 object avoidance
     INCLUDE_AND:
+      objects_to_avoid:
+        - #list the objects to avoid here.
       horizontal_plane:
         - straight_lines
         - curves
