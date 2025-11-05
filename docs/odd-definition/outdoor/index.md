@@ -8,13 +8,14 @@ It also contains ASAM OpenODD format YAML files that define the taxonomy and ope
 
 | Definition | Overview |
 | ---------- | -------- |
-| [Domain_Concepts_Definition_ISO_34503](ISO34503_LSA.yaml) | Defines the fundamental taxonomy and domain concepts according to ISO 34503 standard |
+| [Domain_Concepts_Definition_ISO_34503](./ISO34503_LSA.yaml) | Defines the fundamental taxonomy and domain concepts according to ISO 34503 standard |
 
 ## ODD Modules
 
 | Definition | Overview |
 | ---------- | -------- |
-| [ODD_Dense_Urban](ODD_LSA_Campus.yaml) | Defines ODD for the dense urban environments |
+| [ODD_Dense_Urban](./ODD_LSA_Campus.yaml) | Defines ODD for the dense urban environments |
+| [Behavior ODD](./lsa_by_behavior.yaml) | Defines Behavior ODD for the dense urban environments |
 
 ## Related Documents
 
