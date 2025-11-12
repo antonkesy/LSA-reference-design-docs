@@ -6,12 +6,110 @@ ODD:
     TITLE: ODD for Vision Pilot
     DESCRIPTION: This module defines the ODD for the LSA.
     INCLUDE_AND:
-      modeul_l3_waypoint_pursuing: true
+      module_l3_waypoint_pursuing: true
       module_l3_emergency_braking: true
       module_l3_object_avoidance: true
       module_l3_intersection: true
 
+      module_l3_Route_Planning: true
+      module_l3_Path_Planning_from_Route: true
+      module_l3_Obstacle_Avoidance: true
+      module_l3_Path_Smoothing: true
+      module_l3_Narrow_Space_Driving: true
+      module_l3_Lane_Change: false
+      module_l3_Pull_Over: true
+      module_l3_Pull_Out: true
+      module_l3_Path_Shift: false
+      module_l3_Obstacle_Stop: true
+      module_l3_Obstacle_Deceleration: true
+      module_l3_Adaptive_Cruise_Control: false
+      module_l3_Decelerate_for_cutin_vehicles: true
+      module_l3_Surround_Check_at_starting: true
+      module_l3_Curve_Deceleration: true
+      module_l3_Curve_Deceleration_for_Obstacle: true
+      module_l3_Crosswalk: true
+      module_l3_Intersection_Oncoming_Vehicle_Check: true
+      module_l3_Intersection_Blind_Spot_Check: true
+      module_l3_Intersection_Occlusion_Check: true
+      module_l3_Intersection_Traffic_Jam_Detection: true
+      module_l3_Traffic_Light: false
+      module_l3_Runout_Check: true
+      module_l3_Stop_Line: false
+      module_l3_Occlusion_Spot_Check: true
+      module_l3_No_Stop_Area: false
+      module_l3_Merge_from_Private_Area_to_Public_Road: false
+      module_l3_Speed_Bump: true
+      module_l3_Detection_Area: true
+      module_l3_No Drivable_Lane: true
+      module_l3_Collision_Detection_when_deviating_from_lane: false
+      module_l3_Parking: true
+      module_l3_Autonomous_Emergency_Braking: true
+      module_l3_Minimum_Risk_Maneuver: true
+      module_l3_Trajectory_Validation: fales
+      module_l3_Running_Lane_Map_Generation: fales
+      module_l3_Running_Lane_Optimization: fales
+
 MODULES:
+  module_l3_Route_Planning:
+    TITLE: ODD of the L3 Plan route from the ego vehicle position to the destination.
+    INCLUDE_AND:
+      horizontal_plane:
+        - straight_lines
+        - curves
+        - u_turn
+      curvature: "[xx .. yy] 1/m"
+      transverse_plane_type:
+        - divided
+        - undivided
+        - pavements
+      bank_angle: "[xx .. yy] deg"
+      superelevation_banking:
+        - any_superelevation_banking # newly added to avoid empty categoricals
+      longitudinal_plane:
+        - up-slope # positive gradient
+        - down-slope # negative-gradient
+        - level_plane
+      inclination_angle: "[xx .. yy] deg"
+
+  module_l3_Path_Planning_from_Route:
+    TITLE: ODD of the L3 Plan path to be followed from the given route.
+    INCLUDE_AND:
+      horizontal_plane:
+        - straight_lines
+        - curves
+        - u_turn
+      curvature: "[xx .. yy] 1/m"
+      transverse_plane_type:
+        - divided
+        - undivided
+        - pavements
+      bank_angle: "[xx .. yy] deg"
+      superelevation_banking:
+        - any_superelevation_banking # newly added to avoid empty categoricals
+      longitudinal_plane:
+        - up-slope # positive gradient
+        - down-slope # negative-gradient
+        - level_plane
+      inclination_angle: "[xx .. yy] deg"
+
+  module_l3_Obstacle_Avoidance:
+    TITLE: ODD of the L3 Plan path to avoid obstacles by steering operation.
+    INCLUDE_AND:
+      objects_to_avoid:
+        - #list the objects to avoid here.
+      horizontal_plane:
+        - straight_lines
+        - curves
+      superelevation_banking:
+        - any_superelevation_banking # newly added to avoid empty categoricals
+      longitudinal_plane:
+        - up-slope # positive gradient
+        - down-slope # negative-gradient
+        - level_plane
+    EXCLUDE_OR:
+      bad_weather: false
+      bad_visibility: false
+
   module_l3_waypoint_pursuing:
     TITLE: ODD of the L3 waypoint pursuing behavior
     INCLUDE_AND:
@@ -43,7 +141,7 @@ MODULES:
     EXCLUDE_OR:
       bad_weather: false # maybe remove for now and add later when we can handle different weather conditions.
       bad_visibility: false
-    
+
   module_l3_emergency_braking:
     TITLE: ODD of the L3 Emergency Braking behavior
     INCLUDE_AND:
