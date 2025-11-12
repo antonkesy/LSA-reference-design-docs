@@ -3,7 +3,7 @@ IMPORT:
 
 ODD:
   lsa_main_module:
-    TITLE: ODD for Vision Pilot
+    TITLE: ODD for Low Speed Autonomous vehicles
     DESCRIPTION: This module defines the ODD for the LSA.
     INCLUDE_AND:
       module_l3_waypoint_pursuing: true
