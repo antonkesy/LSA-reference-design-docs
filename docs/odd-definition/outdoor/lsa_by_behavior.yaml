@@ -1,5 +1,5 @@
 IMPORT:
-  - ../ODD_Taxonomy_Extended.yaml
+  - Domain_Concepts_Definition_ISO_34503_LSA
 
 ODD:
   lsa_main_module:

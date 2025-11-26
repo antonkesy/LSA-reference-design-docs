@@ -14,8 +14,8 @@ It also contains ASAM OpenODD format YAML files that define the taxonomy and ope
 
 | Definition | Overview |
 | ---------- | -------- |
-| [ODD_Dense_Urban](./ODD_LSA_Campus.yaml) | Defines ODD for the dense urban environments |
-| [Behavior ODD](./lsa_by_behavior.yaml) | Defines Behavior ODD for the dense urban environments |
+| ~~[ODD_Dense_Urban](./ODD_LSA_Campus.yaml)~~ | ~~Defines ODD for the dense urban environment~~s |
+| [Behavior ODD](./lsa_by_behavior.yaml) | Defines Behavior-based ODD for the dense urban environments |
 
 ## Related Documents
 
