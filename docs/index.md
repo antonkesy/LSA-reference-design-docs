@@ -12,12 +12,22 @@ The reference design WG publishes the guidelines for Low Speed Autonomy (LSA) ve
 
 For more details about the reference design WG, its goals and details of the Autoware Foundation working groups that oversees the project, refer to the [Reference Design WG wiki](https://github.com/autowarefoundation/RefDesignWG/wiki/)
 
-## Getting started
+## Getting Started
 
-- [ODD](./odd-definition/index.md)
-- [Hardware Configuration](./hardware-configuration/index.md)
-- [Software Configuration](./software-configuration/index.md)
-- [Evaluation and Testing](./evaluation-and-testing/index.md)
+**New to LSA vehicle development?** Start with the [Get Started Guide](./get-started/index.md) to:
+
+- Identify your use case scenario
+- Follow the recommended Standard Build
+- Customize based on your specific requirements
+
+### Reference Documentation
+
+For detailed technical specifications:
+
+- [ODD Definition](./odd-definition/index.md) - Operational design domain and test scenarios
+- [Hardware Configuration](./hardware-configuration/index.md) - ECUs, sensors, and chassis specifications
+- [Software Configuration](./software-configuration/index.md) - Deployment, middleware, and setup guides
+- [Evaluation and Testing](./evaluation-and-testing/index.md) - Performance benchmarks and validation
 
 ## Other Example Design
 
