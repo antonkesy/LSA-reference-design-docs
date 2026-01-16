@@ -120,7 +120,7 @@ Micro self-driving vehicles deployed in Taiwan for passenger transport and cargo
 
 **Highlights:** First Taiwan Lantern Festival self-driving vehicle (2024); 400 trips serving 1,000+ passengers in 16 days; deployed at 13+ locations including TSMC Southern Taiwan Science Park.
 
-**Links:** [KingWayTek](https://www.kingwaytek.com/eng/index.html) | [Self-Driving Solutions](http://smartdriving.kingwaytek.com/en/index.html) | [Introduction (PDF)](../other-example-designs/KWT_LSV/Kingway_LSV_introduction_ENG_0729AWF_v1.pdf)
+**Links:** [KingWayTek](https://www.kingwaytek.com/eng/index.html) | [Self-Driving Solutions](http://smartdriving.kingwaytek.com/en/index.html) | [Introduction (PDF)](../KWT_LSV/Kingway_LSV_introduction_ENG_0729AWF_v1.pdf)
 
 ---
 
@@ -151,7 +151,7 @@ Human-rideable platform for software development and testing, developed by the A
 
 **Best For:** Algorithm development, SAE Level 0-3 testing
 
-**Documentation:** [Go-Kart Details](../other-example-designs/GoKart/index.md) | [Project Docs](https://go-kart-upenn.readthedocs.io/) | [GitHub](https://github.com/mlab-upenn/Go-Kart)
+**Documentation:** [Go-Kart Details](./GoKart/index.md) | [Project Docs](https://go-kart-upenn.readthedocs.io/) | [GitHub](https://github.com/mlab-upenn/Go-Kart)
 
 ---
 
@@ -177,7 +177,7 @@ Lowest-cost entry point for learning autonomy.
 
 **Best For:** Education, racing competitions, algorithm prototyping
 
-**Documentation:** [RoboRacer Details](../other-example-designs/F1Tenth/index.md) | [RoboRacer Portal](https://roboracer.ai/) | [RoboRacer Learn](https://roboracer.ai/learn)
+**Documentation:** [RoboRacer Details](./F1Tenth/index.md) | [RoboRacer Portal](https://roboracer.ai/) | [RoboRacer Learn](https://roboracer.ai/learn)
 
 ---
 
@@ -204,7 +204,7 @@ Home-buildable 1/10 scale platform with comprehensive documentation, developed b
 
 **Best For:** Self-learners, home projects, university courses
 
-**Documentation:** [AutoSDV Details](../other-example-designs/AutoSDV/index.md) | [AutoSDV Book](https://newslabntu.github.io/autosdv-book/) | [GitHub](https://github.com/NEWSLabNTU/AutoSDV)
+**Documentation:** [AutoSDV Details](./AutoSDV/index.md) | [AutoSDV Book](https://newslabntu.github.io/autosdv-book/) | [GitHub](https://github.com/NEWSLabNTU/AutoSDV)
 
 ---
 
@@ -243,10 +243,10 @@ Use these tables to refine your configuration choice based on specific requireme
 
 For detailed documentation on specific platforms:
 
-- [RoboRacer (F1Tenth)](../other-example-designs/F1Tenth/Reference%20Design%20for%20F1Tenth%20with%20Autoware.md) - Racing robots using Autoware
-- [Go-Kart](../other-example-designs/GoKart/Reference%20Design%20for%20Go-Kart%20with%20Autoware.md) - EV Go-Kart using Autoware
-- [AutoSDV](../other-example-designs/AutoSDV/index.md) - Home-buildable platform
-- [KWT LSV](../other-example-designs/KWT_LSV/Kingway_LSV_introduction_ENG_0729AWF_v1.pdf) - Micro self-driving vehicles by KingWayTek
+- [RoboRacer (F1Tenth)](./F1Tenth/Reference%20Design%20for%20F1Tenth%20with%20Autoware.md) - Racing robots using Autoware
+- [Go-Kart](./GoKart/Reference%20Design%20for%20Go-Kart%20with%20Autoware.md) - EV Go-Kart using Autoware
+- [AutoSDV](./AutoSDV/index.md) - Home-buildable platform
+- [KWT LSV (PDF)](../KWT_LSV/Kingway_LSV_introduction_ENG_0729AWF_v1.pdf) - Micro self-driving vehicles by KingWayTek
 - [System Configuration](../system-configuration/index.md) - Hardware and software components for LSA vehicles
 
 ---

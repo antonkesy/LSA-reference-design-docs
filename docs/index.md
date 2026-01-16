@@ -41,9 +41,9 @@ These Autoware-based projects demonstrate LSA deployments you can learn from:
 
 | Platform | Scale | Best For | Documentation |
 |----------|-------|----------|---------------|
-| **Go-Kart** | 1/3 | Algorithm development | [Details](./other-example-designs/GoKart/index.md) \| [Project](https://go-kart-upenn.readthedocs.io/) |
-| **RoboRacer** | 1/10 | Education, racing | [Details](./other-example-designs/F1Tenth/index.md) \| [RoboRacer Portal](https://roboracer.ai/) |
-| **AutoSDV** | Small | Home projects | [Details](./other-example-designs/AutoSDV/index.md) \| [AutoSDV Book](https://newslabntu.github.io/autosdv-book/) |
+| **Go-Kart** | 1/3 | Algorithm development | [Details](./get-started/GoKart/index.md) \| [Project](https://go-kart-upenn.readthedocs.io/) |
+| **RoboRacer** | 1/10 | Education, racing | [Details](./get-started/F1Tenth/index.md) \| [RoboRacer Portal](https://roboracer.ai/) |
+| **AutoSDV** | Small | Home projects | [Details](./get-started/AutoSDV/index.md) \| [AutoSDV Book](https://newslabntu.github.io/autosdv-book/) |
 
 ### Next Steps
 
