@@ -1,5 +1,9 @@
 # Overview
 
+<p align="center">
+  <img src="images/logo_brand_black.png" alt="AutoSDV Logo" width="300"/>
+</p>
+
 The AutoSDV project (Autoware Software-Defined Vehicle) is an affordable 1/10 scale autonomous driving platform developed by NEWSLab at National Taiwan University. It provides a complete stack from hardware specifications to software implementation for educational and research institutes.
 
 ## Platform Models
@@ -12,6 +16,25 @@ The AutoSDV project (Autoware Software-Defined Vehicle) is an affordable 1/10 sc
 | **Localization** | Vision only | NDT (full autonomous) | Development needed | Development needed |
 | **Connectivity** | Standard | Standard | Standard | 5G (Ataya/MOXA) |
 | **Battery Life** | 40 min | 40 min | 40 min | 40 min |
+
+<table align="center" border="0" style="margin: 2em 0;">
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="images/model_robin-w.webp" alt="Robin-W Solid-State LiDAR Kit" width="80%"/>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="images/model_velodyne_32c.webp" alt="Velodyne 32C LiDAR Kit" width="80%"/>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="images/model_cube1_moxa-5g.webp" alt="MOXA 5G Kit" width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Solid-State LiDAR</b></td>
+    <td align="center"><b>360° LiDAR</b></td>
+    <td align="center"><b>5G Connected</b></td>
+  </tr>
+</table>
 
 ## Core Components
 
