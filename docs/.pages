@@ -1,6 +1,6 @@
 nav:
-  - Introduction: index.md
-  - Get Started: get-started
+  - Get Started: index.md
+  - Reference Designs: get-started
   - ODD Definition: odd-definition
   - Hardware Configuration: hardware-configuration
   - Software Configuration: software-configuration

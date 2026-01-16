@@ -98,6 +98,32 @@ Autonomous GEM shuttles at North Carolina A&T State University.
 
 ---
 
+#### KingWayTek Micro LSV
+
+Micro self-driving vehicles deployed in Taiwan for passenger transport and cargo delivery.
+
+| Aspect | Details |
+|--------|---------|
+| **Platform** | Custom micro EV (3380×1350×1850mm) |
+| **Max Speed** | ≤15 km/h |
+| **Autonomy Level** | L4 |
+| **Capacity** | 4-5 passengers or 350kg cargo |
+| **Range** | 50km |
+
+**Technology Stack:**
+
+| Component | Details |
+|-----------|---------|
+| **Sensors** | LiDAR, radar, cameras |
+| **Maps** | HD Maps (centimeter-level precision) |
+| **Communication** | C-V2X (4G/5G) |
+
+**Highlights:** First Taiwan Lantern Festival self-driving vehicle (2024); 400 trips serving 1,000+ passengers in 16 days; deployed at 13+ locations including TSMC Southern Taiwan Science Park.
+
+**Links:** [KingWayTek](https://www.kingwaytek.com/eng/index.html) | [Self-Driving Solutions](http://smartdriving.kingwaytek.com/en/index.html) | [Introduction (PDF)](../other-example-designs/KWT_LSV/Kingway_LSV_introduction_ENG_0729AWF_v1.pdf)
+
+---
+
 ### Development Platforms
 
 These platforms are designed for algorithm development, education, and prototyping:
@@ -210,6 +236,18 @@ Use these tables to refine your configuration choice based on specific requireme
 | Limited | Budget |
 | Moderate | Campus |
 | Flexible | High-Performance |
+
+---
+
+## Other Example Designs
+
+For detailed documentation on specific platforms:
+
+- [RoboRacer (F1Tenth)](../other-example-designs/F1Tenth/Reference%20Design%20for%20F1Tenth%20with%20Autoware.md) - Racing robots using Autoware
+- [Go-Kart](../other-example-designs/GoKart/Reference%20Design%20for%20Go-Kart%20with%20Autoware.md) - EV Go-Kart using Autoware
+- [AutoSDV](../other-example-designs/AutoSDV/index.md) - Home-buildable platform
+- [KWT LSV](../other-example-designs/KWT_LSV/Kingway_LSV_introduction_ENG_0729AWF_v1.pdf) - Micro self-driving vehicles by KingWayTek
+- [System Configuration](../system-configuration/index.md) - Hardware and software components for LSA vehicles
 
 ---
 
