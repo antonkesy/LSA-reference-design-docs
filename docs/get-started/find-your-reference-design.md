@@ -172,12 +172,12 @@ Lowest-cost entry point for learning autonomy.
 | Component | Details |
 |-----------|---------|
 | **ROS 2** | Foxy |
-| **Simulator** | F1Tenth Gym |
+| **Simulator** | [RoboRacer Gym](https://github.com/f1tenth/f1tenth_gym) |
 | **Source Code** | [GitHub](https://github.com/f1tenth) |
 
 **Best For:** Education, racing competitions, algorithm prototyping
 
-**Documentation:** [RoboRacer Details](./F1Tenth/index.md) | [RoboRacer Portal](https://roboracer.ai/) | [RoboRacer Learn](https://roboracer.ai/learn)
+**Documentation:** [RoboRacer Details](./RoboRacer/index.md) | [RoboRacer Portal](https://roboracer.ai/) | [RoboRacer Learn](https://roboracer.ai/learn)
 
 ---
 
@@ -243,7 +243,7 @@ Use these tables to refine your configuration choice based on specific requireme
 
 For detailed documentation on specific platforms:
 
-- [RoboRacer (F1Tenth)](./F1Tenth/Reference%20Design%20for%20F1Tenth%20with%20Autoware.md) - Racing robots using Autoware
+- [RoboRacer](./RoboRacer/Reference%20Design%20for%20RoboRacer%20with%20Autoware.md) - Racing robots using Autoware
 - [Go-Kart](./GoKart/Reference%20Design%20for%20Go-Kart%20with%20Autoware.md) - EV Go-Kart using Autoware
 - [AutoSDV](./AutoSDV/index.md) - Home-buildable platform
 - [KWT LSV (PDF)](../KWT_LSV/Kingway_LSV_introduction_ENG_0729AWF_v1.pdf) - Micro self-driving vehicles by KingWayTek

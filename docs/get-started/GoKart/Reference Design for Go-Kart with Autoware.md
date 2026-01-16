@@ -27,18 +27,18 @@ One is interested in building your small size autonomous vehicles and looks for 
 
 | Use Cases: | Education | Racing | PoC | Open AD Kit | Commercial Services/Production |
 |:--------: | :--------:| :---------: | :---------: |:---------: | :---------: |
-|F1Tenth | <input type="checkbox" checked />  | <input type="checkbox" checked />  | <input type="checkbox" checked  />  | <input type="checkbox" disabled  />  | <input type="checkbox" disabled  />  | 
+|Go-Kart | <input type="checkbox" checked />  | <input type="checkbox" checked />  | <input type="checkbox" checked  />  | <input type="checkbox" disabled  />  | <input type="checkbox" disabled  />  | 
 
 # ODD
 
 | ODD | Cargo | Bus | RoboTaxi | Low Speed (Utility) Vehicle | Delivery Robot |
 |:--------: | :--------:| :---------: | :---------: |:---------: | :---------: |
-|F1Tenth | <input type="checkbox" disabled  />  | <input type="checkbox" disabled />  | <input type="checkbox" disabled  />  | <input type="checkbox" disabled  />  | <input type="checkbox" disabled  />  | 
+|Go-Kart | <input type="checkbox" disabled  />  | <input type="checkbox" disabled />  | <input type="checkbox" disabled  />  | <input type="checkbox" disabled  />  | <input type="checkbox" disabled  />  | 
 
 # Automation Level:
 | Automation Level | 0 | 1 | 2 | 3 | 4 | 5 |
 |:--------: | :--------:| :---------: | :---------: |:---------: | :---------: | :---------: |
-|F1Tenth | <input type="checkbox" checked  />  |  <input type="checkbox" checked  />  | <input type="checkbox" checked />  | <input type="checkbox" checked  />  | <input type="checkbox" disabled  />  | <input type="checkbox" disabled  />  | 
+|Go-Kart | <input type="checkbox" checked  />  |  <input type="checkbox" checked  />  | <input type="checkbox" checked />  | <input type="checkbox" checked  />  | <input type="checkbox" disabled  />  | <input type="checkbox" disabled  />  | 
 
 
 # System Architecture
