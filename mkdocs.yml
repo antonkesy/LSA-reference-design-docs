@@ -54,7 +54,7 @@ plugins:
   - awesome-pages
   - exclude:
       regex:
-        - ^(?!(.*/)?assets/).*\.(?!(.*\.)?md|(.*\.)?svg|(.*\.)?png|(.*\.)?jpg|(.*\.)?pdf).*$
+        - ^(?!(.*/)?assets/).*\.(?!(.*\.)?md|(.*\.)?svg|(.*\.)?png|(.*\.)?jpg|(.*\.)?pdf|(.*\.)?webp|(.*\.)?jpeg).*$
         - ^(.*/)?[^.]*$
   - macros
   - same-dir
