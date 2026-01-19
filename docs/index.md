@@ -12,16 +12,42 @@ The reference design WG publishes the guidelines for Low Speed Autonomy (LSA) ve
 
 For more details about the reference design WG, its goals and details of the Autoware Foundation working groups that oversees the project, refer to the [Reference Design WG wiki](https://github.com/autowarefoundation/RefDesignWG/wiki/)
 
-## Getting started
+---
 
-- [ODD](./odd-definition/index.md)
-- [Hardware Configuration](./hardware-configuration/index.md)
-- [Software Configuration](./software-configuration/index.md)
-- [Evaluation and Testing](./evaluation-and-testing/index.md)
+## Get Started
 
-## Other Example Design
+This guide helps you select the right configuration for your Autoware-based low-speed autonomous (LSA) vehicle. Start by identifying your scenario, then use the reference designs to plan your build.
 
-- [RoboRacer (F1Tenth)](./other-example-designs/F1Tenth/Reference%20Design%20for%20F1Tenth%20with%20Autoware.md) describes the design and implementation of racing robots using Autoware.
-- [GoKart](./other-example-designs/GoKart/Reference%20Design%20for%20Go-Kart%20with%20Autoware.md) describes the design and implementation of EV GoKart using Autoware.
-- [KWT LSV](other-example-designs/KWT_LSV/Kingway_LSV_introduction_ENG_0729AWF_v1.pdf) describes the design and implementation of the LSV by KWT.
-- [System configuration](./system-configuration/index.md) describes the components that make up LSA vehicles in terms of the required hardware and software.
+### Common Scenarios
+
+| Scenario | Environment | Speed | Key Challenge | ODD Reference |
+|----------|-------------|-------|---------------|---------------|
+| **Campus Transport** | Outdoor, paved | <15 kph | Pedestrian interaction | [LSA-CAM-0001 to 0040](./odd-definition/outdoor/index.md) |
+| **Warehouse Logistics** | Indoor, structured | <10 kph | GPS-denied navigation | [Indoor ODD](./odd-definition/indoor/index.md) |
+| **Last-Mile Delivery** | Mixed terrain | <15 kph | Sidewalk/road transitions | [LSA-CAM-0020 to 0060](./odd-definition/outdoor/index.md) |
+
+### Real World Examples
+
+These Autoware-based projects demonstrate LSA deployments you can learn from:
+
+#### Production Deployments
+
+| Project | Organization | Type | Links |
+|---------|--------------|------|-------|
+| **iseAuto** | TalTech (Estonia) | Campus shuttle | [Project](https://autolab.taltech.ee/portfolio/iseauto/) \| [Autoware Foundation](https://autoware.org/autowareio/taltech/) |
+| **Aggie Auto** | NC A&T State University | Campus shuttle | [Project](https://www.aggieauto.com/about) \| [Case Study](https://autonomoustuff.com/products/case-studies/nc-a-and-t-state-university-autonomous-gem-shuttles) |
+
+#### Development Platforms
+
+| Platform | Scale | Best For | Documentation |
+|----------|-------|----------|---------------|
+| **Go-Kart** | 1/3 | Algorithm development | [Details](./get-started/GoKart/index.md) \| [Project](https://go-kart-upenn.readthedocs.io/) |
+| **RoboRacer** | 1/10 | Education, racing | [Details](./get-started/RoboRacer/index.md) \| [RoboRacer Portal](https://roboracer.ai/) |
+| **AutoSDV** | Small | Home projects | [Details](./get-started/AutoSDV/index.md) \| [AutoSDV Book](https://newslabntu.github.io/autosdv-book/) |
+
+### Next Steps
+
+1. **[Find Your Reference Design](./get-started/find-your-reference-design.md)** - Use the decision flowchart to identify which configuration matches your scenario
+2. **[Design Choices by Example](./get-started/build-examples.md)** - Review detailed component specifications for each configuration
+3. **[Hardware Configuration](./hardware-configuration/index.md)** - Deep dive into ECUs, sensors, and chassis options
+4. **[Software Configuration](./software-configuration/index.md)** - Setup guides for Autoware and middleware
