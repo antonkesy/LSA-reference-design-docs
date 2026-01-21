@@ -243,9 +243,9 @@ Use these tables to refine your configuration choice based on specific requireme
 
 For detailed documentation on specific platforms:
 
-- [RoboRacer](./RoboRacer/index.md) - Racing robots using Autoware
-- [Go-Kart](./GoKart/index.md) - EV Go-Kart using Autoware
-- [AutoSDV](./AutoSDV/index.md) - Home-buildable platform
+- [RoboRacer](./RoboRacer/) - Racing robots using Autoware
+- [Go-Kart](./GoKart/) - EV Go-Kart using Autoware
+- [AutoSDV](./AutoSDV/) - Home-buildable platform
 - [KWT LSV (PDF)](../KWT_LSV/Kingway_LSV_introduction_ENG_0729AWF_v1.pdf) - Micro self-driving vehicles by KingWayTek
 - [System Configuration](../system-configuration/index.md) - Hardware and software components for LSA vehicles
 
