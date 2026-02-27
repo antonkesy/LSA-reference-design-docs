@@ -2,6 +2,8 @@
 
 This document elaborates the hardware and software configurations for using Autoware for autonomous driving. Hence, it will serve as a guideline to select hardware and software components to build autonomous vehicles. However, this document is NOT prepared as neither step-by-step instructions nor Q&A books, which will be provided as a reference link if available.
 
+Two spider/radar charts are provided for each project to provide high-level overview of the design and technologies used in each project. The metrics for the chart are defined on the [Metrics Page](https://autowarefoundation.github.io/autoware-documentation/main/reference-design/metrics/).
+
 # Design Overview
 
 ![Radar Chart for RoboRacer Design](images/RadarChart-F1Tenth.png)
